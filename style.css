@@ -85,3 +85,17 @@ img {
     margin-right: 5px;
 }
 
+.first-image {
+    display: block;
+}
+
+.second-image {
+    display: none;
+}
+
+.product:hover .first-image {
+    display: none;
+}
+.product:hover .second-image {
+    display: block;
+}
